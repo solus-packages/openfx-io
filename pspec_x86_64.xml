@@ -1,0 +1,69 @@
+<PISI>
+    <Source>
+        <Name>openfx-io</Name>
+        <Packager>
+            <Name>Sönke Behrendt</Name>
+            <Email>thesoenke@outlook.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>multimedia.graphics</PartOf>
+        <Summary xml:lang="en">A set of OpenFX readers and writers plugins</Summary>
+        <Description xml:lang="en">A set of OpenFX readers and writers plugins
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>openfx-io</Name>
+        <Summary xml:lang="en">A set of OpenFX readers and writers plugins</Summary>
+        <Description xml:lang="en">A set of OpenFX readers and writers plugins
+</Description>
+        <PartOf>multimedia.graphics</PartOf>
+        <Files>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Info.plist</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Linux-x86-64/IO.ofx</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.OCIOCDLTransform.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.OCIOColorSpace.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.OCIODisplay.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.OCIOFileTransform.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.OCIOLogConvert.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.OCIOLookTransform.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.OIIOResize.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.OIIOResize.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.OIIOText.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.OIIOText.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadEXR.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadEXR.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadFFmpeg.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadFFmpeg.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadOIIO.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadOIIO.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadPFM.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadPFM.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadPNG.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.ReadPNG.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.RunScript.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.RunScript.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.SeExpr.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.SeExpr.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.WriteEXR.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.WriteEXR.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.WriteFFmpeg.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.WriteFFmpeg.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.WriteOIIO.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.WriteOIIO.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.WritePFM.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.WritePFM.svg</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.WritePNG.png</Path>
+            <Path fileType="data">/usr/share/OFX/Plugins/IO.ofx.bundle/Contents/Resources/fr.inria.openfx.WritePNG.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-02-05</Date>
+            <Version>2.1.9</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Sönke Behrendt</Name>
+            <Email>thesoenke@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,31 @@
+name       : openfx-io
+version    : 2.1.9
+release    : 1
+source     :
+    - https://github.com/MrKepzie/Natron/releases/download/2.1.9/openfx-io-2.1.9.tar.xz : c74fd981abd4359a9fae7b2037ad87ab4f1af4eb952426128f29bfe952342968
+license    : GPL-2.0
+component  : multimedia.graphics
+summary    : A set of OpenFX readers and writers plugins
+description: |
+    A set of OpenFX readers and writers plugins
+builddeps  :
+    - pkgconfig(gl)
+    - pkgconfig(libavcodec)
+    - pkgconfig(libcdr-0.1)
+    - pkgconfig(libpng)
+    - pkgconfig(librevenge-0.0)
+    - pkgconfig(librsvg-2.0)
+    - pkgconfig(Magick++)
+    - pkgconfig(OpenColorIO)
+    - pkgconfig(OpenEXR)
+    - pkgconfig(pangocairo)
+    - pkgconfig(poppler)
+    - openimageio-devel
+    - seexpr-devel
+build      : |
+    %make CONFIG=release IM=7
+install    : |
+    %make_install \
+        PLUGINPATH=/usr/share/OFX/Plugins \
+        CONFIG=release \
+        IM=7
