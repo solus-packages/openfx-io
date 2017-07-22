@@ -1,8 +1,8 @@
 name       : openfx-io
-version    : 2.1.9
-release    : 1
+version    : 2.3.0
+release    : 2
 source     :
-    - https://github.com/MrKepzie/Natron/releases/download/2.1.9/openfx-io-2.1.9.tar.xz : c74fd981abd4359a9fae7b2037ad87ab4f1af4eb952426128f29bfe952342968
+    - git|https://github.com/MrKepzie/openfx-io.git : Natron-2.3.0
 license    : GPL-2.0
 component  : multimedia.graphics
 summary    : A set of OpenFX readers and writers plugins
@@ -13,6 +13,7 @@ builddeps  :
     - pkgconfig(libavcodec)
     - pkgconfig(libcdr-0.1)
     - pkgconfig(libpng)
+    - pkgconfig(libraw)
     - pkgconfig(librevenge-0.0)
     - pkgconfig(librsvg-2.0)
     - pkgconfig(Magick++)
