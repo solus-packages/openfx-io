@@ -1,7 +1,7 @@
 libGL.so.1
-libHalf.so.12
-libIlmImf-2_2.so.22
-libIlmThread-2_2.so.12
+libHalf.so.23
+libIlmImf-2_2.so.23
+libIlmThread-2_2.so.23
 libOpenColorIO.so.1
 libOpenImageIO.so.1.8
 libSeExpr.so
