@@ -5,7 +5,7 @@
             <Name>Pierre-Yves</Name>
             <Email>pyu@riseup.net</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>multimedia.graphics</PartOf>
         <Summary xml:lang="en">A set of OpenFX readers and writers plugins</Summary>
         <Description xml:lang="en">A set of OpenFX readers and writers plugins
@@ -58,8 +58,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2018-04-10</Date>
+        <Update release="5">
+            <Date>2018-04-30</Date>
             <Version>2.3.4</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>

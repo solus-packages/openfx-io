@@ -1,14 +1,17 @@
 name       : openfx-io
 version    : 2.3.4
-release    : 4
+release    : 5
 source     :
     - git|https://github.com/MrKepzie/openfx-io.git : Natron-2.3.4
-license    : GPL-2.0
+license    : GPL-2.0-or-later
 component  : multimedia.graphics
 summary    : A set of OpenFX readers and writers plugins
 description: |
     A set of OpenFX readers and writers plugins
 builddeps  :
+    - pkgconfig(Magick++)
+    - pkgconfig(OpenColorIO)
+    - pkgconfig(OpenEXR)
     - pkgconfig(gl)
     - pkgconfig(libavcodec)
     - pkgconfig(libcdr-0.1)
@@ -18,9 +21,6 @@ builddeps  :
     - pkgconfig(libraw)
     - pkgconfig(librevenge-0.0)
     - pkgconfig(librsvg-2.0)
-    - pkgconfig(Magick++)
-    - pkgconfig(OpenColorIO)
-    - pkgconfig(OpenEXR)
     - pkgconfig(libopenjp2)
     - pkgconfig(pangocairo)
     - pkgconfig(poppler)
