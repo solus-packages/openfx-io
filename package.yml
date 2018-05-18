@@ -1,8 +1,8 @@
 name       : openfx-io
-version    : 2.3.4
-release    : 5
+version    : 2.3.11
+release    : 6
 source     :
-    - git|https://github.com/MrKepzie/openfx-io.git : Natron-2.3.4
+    - git|https://github.com/NatronGitHub/openfx-io.git : Natron-2.3.11
 license    : GPL-2.0-or-later
 component  : multimedia.graphics
 summary    : A set of OpenFX readers and writers plugins
