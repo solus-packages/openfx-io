@@ -58,8 +58,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="7">
-            <Date>2018-08-06</Date>
+        <Update release="8">
+            <Date>2018-12-07</Date>
             <Version>2.3.11</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
