@@ -2,15 +2,15 @@
     <Source>
         <Name>openfx-io</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>multimedia.graphics</PartOf>
         <Summary xml:lang="en">A set of OpenFX readers and writers plugins</Summary>
         <Description xml:lang="en">A set of OpenFX readers and writers plugins
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>openfx-io</Name>
@@ -58,12 +58,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="8">
-            <Date>2018-12-07</Date>
-            <Version>2.3.11</Version>
+        <Update release="9">
+            <Date>2019-07-13</Date>
+            <Version>2.3.14</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
