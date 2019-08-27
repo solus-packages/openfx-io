@@ -19,7 +19,7 @@ libm.so.6
 libopenjp2.so.7
 libpng16.so.16
 libpthread.so.0
-libraw_r.so.16
+libraw_r.so.19
 libstdc++.so.6
 libswscale.so.5
 libtiff.so.5
